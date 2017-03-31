@@ -7327,90 +7327,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Hardware">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="STAND-OFF">
-<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
-&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
-&lt;h4&gt;Devices Using&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.302"/>
-<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="STAND-OFF-TIGHT">
-<description>&lt;h3&gt;Standoff (#4 Screw) - Tight fit around screw body&lt;/h3&gt;
-&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
-&lt;h4&gt;Devices Using&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.048"/>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="STAND-OFF">
-<description>&lt;h3&gt;Stand-Off Drill Hole&lt;/h3&gt;</description>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="STAND-OFF" prefix="H">
-<description>&lt;h3&gt;Stand Off&lt;/h3&gt;
-&lt;p&gt;Drill holes for mechanically mounting via screws, standoffs, etc.&lt;/p&gt;
-&lt;p&gt;Note: Use the keepout ring to avoid running the screw head into surrounding components.
-&lt;h4&gt;Variant Overviews&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;STAND-OFF&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;STAND-OFF-TIGHT&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw, &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Example SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10453"&gt;Screw - Phillips Head (1/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10453)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10452"&gt;Screw - Phillips Head (1/2", 4-40, 10 pack)&lt;/a&gt; (PRT-10452)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10451"&gt;Screw - Phillips Head (3/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10451)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10450"&gt;Screw - Phillips Head (1", 4-40, 10 pack)&lt;/a&gt; (PRT-10450)&lt;/li&gt;</description>
-<gates>
-<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="STAND-OFF">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TIGHT" package="STAND-OFF-TIGHT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7450,7 +7366,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J3" library="SparkX" deviceset="I2C_STANDARD" device="_NO_SILK"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$1" library="SparkX" deviceset="SPARKX-LOGO" device="4" value="SPARKX-LOGO4"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -7461,8 +7376,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R13" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_PASTE" device="_SILK" value=""/>
-<part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
@@ -7559,7 +7472,6 @@ resistors.</text>
 <instance part="J3" gate="G$1" x="15.24" y="86.36"/>
 <instance part="SUPPLY7" gate="VDD" x="25.4" y="93.98"/>
 <instance part="GND13" gate="1" x="25.4" y="78.74"/>
-<instance part="U$1" gate="G$1" x="134.62" y="5.08"/>
 <instance part="R3" gate="G$1" x="157.48" y="88.9" rot="MR90"/>
 <instance part="SUPPLY8" gate="VDD" x="157.48" y="96.52" rot="MR0"/>
 <instance part="C7" gate="G$1" x="20.32" y="144.78"/>
@@ -7570,8 +7482,6 @@ resistors.</text>
 <instance part="R13" gate="G$1" x="53.34" y="147.32" rot="R90"/>
 <instance part="R14" gate="G$1" x="68.58" y="147.32" rot="R90"/>
 <instance part="JP2" gate="G$1" x="60.96" y="157.48" rot="R270"/>
-<instance part="H1" gate="G$1" x="236.22" y="33.02"/>
-<instance part="H2" gate="G$1" x="238.76" y="33.02"/>
 <instance part="SUPPLY2" gate="VDD" x="60.96" y="165.1"/>
 <instance part="JP3" gate="G$1" x="157.48" y="71.12" rot="R90"/>
 <instance part="SUPPLY9" gate="VDD" x="86.36" y="81.28" rot="MR0"/>
