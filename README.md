@@ -1,4 +1,4 @@
-# Qwiic_Micro_OLED
+Qwiic_Micro_OLED
 ========================================
 ![Qwiic Micro_OLED](https://cdn.sparkfun.com/assets/parts/1/2/2/2/4/Qwiic_Micro_OLED_04.jpg)
 
